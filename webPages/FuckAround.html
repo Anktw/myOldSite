@@ -1,0 +1,170 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Fuck around</title>
+    <style>
+      body {
+        background-image: url("background.jpg");
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      img {
+        z-index: 0;
+        width: 70%;
+        height: auto;
+      }
+
+      .party {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 2;
+        animation: rainbow-bg 10s linear;
+        animation-iteration-count: infinite;
+        pointer-events: none;
+      }
+
+      .dancefloor {
+        min-height: 100vh;
+        min-width: 100vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+
+      @keyframes rainbow-bg {
+        100%,
+        0% {
+          background-color: rgba(255, 0, 0, 0.3);
+        }
+        8% {
+          background-color: rgb(255, 127, 0, 0.3);
+        }
+        16% {
+          background-color: rgb(255, 255, 0, 0.3);
+        }
+        25% {
+          background-color: rgb(127, 255, 0, 0.3);
+        }
+        33% {
+          background-color: rgb(0, 255, 0, 0.3);
+        }
+        41% {
+          background-color: rgb(0, 255, 127, 0.3);
+        }
+        50% {
+          background-color: rgb(0, 255, 255, 0.3);
+        }
+        58% {
+          background-color: rgb(0, 127, 255, 0.3);
+        }
+        66% {
+          background-color: rgb(0, 0, 255, 0.3);
+        }
+        75% {
+          background-color: rgb(127, 0, 255, 0.3);
+        }
+        83% {
+          background-color: rgb(255, 0, 255, 0.3);
+        }
+        91% {
+          background-color: rgb(255, 0, 127, 0.3);
+        }
+      }
+      a {
+      text-decoration: none;
+      color: #fff;
+    }
+
+    .loading-bar {
+      width: 100%;
+      height: 3px;
+      background-color: #ccc;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 1000;
+      animation: loading 1s infinite linear;
+    }
+    @keyframes loading {
+      0% {
+        width: 0%;
+      }
+
+      50% {
+        background-color: #3498db;
+      }
+
+      100% {
+        width: 100%;
+        background-color: #ccc;
+      }
+    }
+
+    @media screen and (max-width: 600px) {
+      h1 {
+        font-size: 20px;
+      }
+    }
+    img {
+        z-index: 0;
+        width: 70%;
+        height: auto;
+        animation: rainbowGlow 5s infinite;
+    }
+    @keyframes rainbowGlow {
+        0% {
+            text-shadow: 0 0 10px rgb(255, 0, 0);
+        }
+        20% {
+            text-shadow: 0 0 10px rgb(255, 165, 0);
+        }
+        40% {
+            text-shadow: 0 0 10px rgb(255, 255, 0);
+        }
+        60% {
+            text-shadow: 0 0 10px rgb(0, 128, 0);
+        }
+        80% {
+            text-shadow: 0 0 10px rgb(0, 0, 255);
+        }
+        100% {
+            text-shadow: 0 0 10px rgb(128, 0, 128);
+        }
+    }
+    .MainContent {
+      text-align: center;
+      box-shadow: 0 0 10px rgb(92, 195, 166);
+      order: 1;
+      margin-bottom: 20px;
+      background-color: #3b433a47;
+      color: #fff;
+      padding: 20px;
+      animation: rainbowGlow 5s infinite;
+    }
+    </style>
+    <script async src="rainbow.js" data-website-id="0af469ba-e70c-456e-a096-6682f8a57fe8"></script>
+  </head>
+  <body>
+  <script>
+    setTimeout(function () {
+      document.querySelector('.loading-bar').style.display = 'none';
+    }, 1500);
+  </script>
+  <div class="party"></div>
+  <div class="dancefloor">
+  <div class="stage">
+  <div class="MainContent"><div class="img"><h1>FUCK AROUND ∝ FIND OUT</h1></div></div>
+  <div class="loading-bar"></div>
+  </body>
+</html>
