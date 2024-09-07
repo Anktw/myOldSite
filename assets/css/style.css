@@ -1,38 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
-body {
-  font-family: "Inter", system-ui;
+/*Header*/
+header{
+  background-color: transparent;
+}
+.header-container {
+  background-color: transparent;
+  margin-bottom: 2rem;
+}
+.social-icons{
+  margin-left: auto;
+}
+/*Light and dark mode*/
+.mode-icon{
+  cursor: pointer;
+  margin-left: 2rem;
+}
+.mode-icon img{
+  width: 30px;
+  height: 30px;
+}
+.light-mode{
+  background-color: #F7F7F8;
+  color: #000;
+}
+.dark-mode{
   background-color: #100E09;
   color: #fff;
 }
-a {
+.light-mode .toggle-icon .moon { display: block; }
+.light-mode .toggle-icon .sun { display: block; }
+.dark-mode .toggle-icon .moon { display: block; }
+.dark-mode .toggle-icon .sun { display: block; }
+/*Body*/
+body {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+  margin-bottom: 1.2rem;
+  margin-right: 2rem;
+  margin-top: 1.2rem;
+  font-family: "Inter", system-ui;
+  background-color: #100E09;
+  color: #fff;
+  transition: background-color 0.4s, color 0.4s;
+}
+/*Horizontal lines*/
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+/*links*/
+.aclass:hover{
+  color: #000204;
+  background-color: #1555ba;
+  font-size: 1.2rem;
+}
+button {
+  border-radius: 0;
+}
+/*Headings*/
 
-}
-
-a:hover {
-
-}
-
-h1{
-
-}
-h2{
-  
-}
-h3{
-  
-}
-h4{
-  
-}
-h5{
-  
-}
-h6 {
-  
-}
-#header {
-  
-}
-section {
-  padding: 60px 0;
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 1.2;
+  margin-bottom: 1.2rem;
 }
