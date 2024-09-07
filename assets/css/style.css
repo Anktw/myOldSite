@@ -10,13 +10,9 @@
 /*Light and dark mode*/
 #mode-icon{
   cursor: pointer;
-  margin-left: 2rem;
   width: 35px;
   height: 35px;
   transition: opacity .5s ease;
-  position:absolute;
-  top: 1.2rem;
-  right: 2rem;
 }
 .light-mode{
   background-color: #F7F7F8;
@@ -27,7 +23,12 @@
   color: #fff;
 }
 #lightModeToggle{
+  position:absolute;
+  top: 1.2rem;
+  right: 2rem;
   display: inline-block;
+  margin-left: 2rem;
+  
 }
 /*Body*/
 body {
