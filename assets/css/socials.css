@@ -7,8 +7,7 @@
 }
 .social-icons a{
     border-radius: 50%;
-    height: 30px;
-    width: 30px;
+    width: 20px;
     box-sizing: border-box;
     flex-shrink: 0;
     place-items: center;
@@ -17,10 +16,10 @@
     height: 20px;  
 }
 .social-icons svg path {
-    fill: white !important; /* Force white color for dark mode */
-  }
-  .lightmode .social-icons svg path {
-    fill: black !important; /* Force black color for light mode */
-  }
+    fill: white !important; 
+}
+.lightmode .social-icons svg path {
+    fill: black !important; 
+}
   
 
