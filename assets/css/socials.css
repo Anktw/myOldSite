@@ -1,19 +1,24 @@
 .social-icons{
     display: flex;
-    gap: 10px;
-}
-.social-icons{
+    gap: 12px;
     justify-content: center;
 }
 .social-icons a{
     border-radius: 50%;
     width: 20px;
+    height: 30px;
     box-sizing: border-box;
+    display: flex;
     flex-shrink: 0;
-    place-items: center;
+    align-items: center;
+    margin-top: 1.2rem;
+    transition: transform 0.2s ease;
 }
 .social-icons a svg{
     height: 20px;  
+}
+.social-icons a svg:hover{
+    transform: scale(1.5);
 }
 .social-icons svg path {
     fill: white !important; 
