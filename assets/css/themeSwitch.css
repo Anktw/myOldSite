@@ -79,9 +79,7 @@ a{
   font-family: "Inter", system-ui;
 }
 .aclass:hover{
-  color: #000204;
-  background-color: #1555ba;
-  font-size: 1.2rem;
+  
 }
 button {
   border-radius: 0;
