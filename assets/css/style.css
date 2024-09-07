@@ -6,9 +6,23 @@
   --button-color1: #0071ff;
   --button-color2: #3a435d;
 }
+.lightmode{
+    --background-color: #ffffff;
+    --text-color1: #111528;
+    --text-color2: #232738;
+    --button-color1: #0071ff;
+    --button-color2: #3a435d;
+  }
 /*Header*/
 .header-container {
     margin-bottom: 2rem;
+}
+/*Navigation Bar*/
+nav{
+    box-shadow: 3px 3px 5px rgba(white, black,white, black);
+}
+nav ul{
+
 }
 /*Body*/
 body {
@@ -33,4 +47,20 @@ hr {
 h1, h2, h3, h4, h5, h6 {
     margin-top: 1.2;
     margin-bottom: 1.2rem;
+}
+/*links*/
+a{
+    color: var(--text-color1);
+}
+.buttonclass{
+ background-color: var(--button-color2);
+ display: inline-block;
+ border-radius: 5px;
+ text-align: center;
+ color: var(--text-color1);
+ margin: 10px 0;
+}
+hr{
+    color: var(--text-color1);
+    width: 100%;
 }
