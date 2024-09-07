@@ -1,4 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+:root{
+  --background-color: #070b1d;
+  --text-color1: #ffffff;
+  --text-color2: #a4a5b8;
+  --button-color1: #0071ff;
+  --button-color2: #3a435d;
+}
 /*Header*/
 .header-container {
   margin-bottom: 2rem;
@@ -8,30 +15,45 @@
   display: inline-block;
 }
 /*Light and dark mode*/
+.lightmode{
+  --background-color: #ffffff;
+  --text-color1: #111528;
+  --text-color2: #232738;
+  --button-color1: #0071ff;
+  --button-color2: #3a435d;
+}
 #mode-icon{
   cursor: pointer;
   width: 35px;
   height: 35px;
   transition: opacity .5s ease;
 }
-.light-mode{
-  background-color: #F7F7F8;
-  color: #000;
+#mode-icon:hover{
+  transform: rotate(180deg);
+  width: 38px;
+  height: 38px;
+  transition: transform .5s ease-in-out;
 }
-.dark-mode{
-  background-color: #100E09;
-  color: #fff;
-}
-#lightModeToggle{
+#theme-switch{
   position:absolute;
   top: 1.2rem;
   right: 2rem;
   display: inline-block;
   margin-left: 2rem;
-  
+}
+#theme-switch img:last-child{
+  display: none;
+}
+.lightmode #theme-switch img:first-child{
+  display: none;
+}
+.lightmode #theme-switch img:last-child{
+  display: block;
 }
 /*Body*/
 body {
+  background-color: var(--background-color);
+  color: var(--text-color1);
   display: flex;
   flex-direction: column;
   margin-left: 2rem;
@@ -39,8 +61,6 @@ body {
   margin-right: 2rem;
   margin-top: 1.2rem;
   font-family: "Inter", system-ui;
-  background-color: #100E09;
-  color: #fff;
   transition: background-color 0.4s, color 0.4s;
 }
 /*Horizontal lines*/
@@ -55,6 +75,9 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 1.2rem;
 }
 /*links*/
+a{
+  font-family: "Inter", system-ui;
+}
 .aclass:hover{
   color: #000204;
   background-color: #1555ba;
