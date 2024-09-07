@@ -1,0 +1,26 @@
+.social-icons{
+    display: flex;
+    gap: 10px;
+}
+.social-icons{
+    justify-content: center;
+}
+.social-icons a{
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    place-items: center;
+}
+.social-icons a svg{
+    height: 20px;  
+}
+.social-icons svg path {
+    fill: white !important; /* Force white color for dark mode */
+  }
+  .lightmode .social-icons svg path {
+    fill: black !important; /* Force black color for light mode */
+  }
+  
+
