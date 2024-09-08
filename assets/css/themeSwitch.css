@@ -1,11 +1,14 @@
 /*Light and dark mode*/
 .lightmode{
-  --background-color: #ffffff;
-  --text-color1: #111528;
-  --text-color2: #232738;
-  --button-color1: #0071ff;
-  --button-color2: #3a435d;
-}
+    --background-color:#e8e8e8;
+    --background-color2: #e1e4f3;
+    --background-color3: #30104b13;
+    --text-color1: #111528;
+    --text-color2: #737890;
+    --button-color3: #ffffff;
+    --button-color1: #d0bce2;
+    --button-color2: #3a435d;
+  }
 #mode-icon{
   cursor: pointer;
   width: 35px;
@@ -13,9 +16,7 @@
   transition: opacity .5s ease;
 }
 #mode-icon:hover{
-  transform: rotate(180deg);
-  width: 38px;
-  height: 38px;
+  transform: rotate(180deg) scale(1.4);
   transition: transform .5s ease-in-out;
 }
 #theme-switch{

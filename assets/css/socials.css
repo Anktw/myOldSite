@@ -18,7 +18,7 @@
     height: 20px;  
 }
 .social-icons a svg:hover{
-    transform: scale(1.5);
+    transform: scale(1.4);
 }
 .social-icons svg path {
     fill: white !important; 
