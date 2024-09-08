@@ -19,20 +19,7 @@
   --button-color2: #3a435d;
   --root-shadow-color: hsla(0, 0%, 0%, 0.02);
 }
-.lightmode{
-    --background-color:#e8e8e8;
-    --background-color2: #e1e4f3;
-    --background-color3: #30104b13;
-    --text-color1: #111528;
-    --text-color2: #737890;
-    --link-color: #0000ff;
-    --linkhover-color: green;
-    --opphover-color: #212121;
-    --button-color1: #d0bce2;
-    --button-color2: #3a435d;
-    --button-color3: #ffffff;
-    --root-shadow-color: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  }
+
   /*Body*/
 body {
     min-height: 100vh;
@@ -128,7 +115,7 @@ nav a:hover{
         height: 100vh;
         background: var(--background-color2);
         top: 100px;
-        right: -100%;
+        left: -100%;
         text-align: center;
         flex-direction: column;
         align-items: center;
@@ -136,14 +123,14 @@ nav a:hover{
 
     }
     nav ul li a{
-        display: flex;
+        display: inline-block;
         flex-direction: column;
         padding: 1rem 1rem 1rem 1rem;
         margin: 50px 0;
         line-height: 30px;
     }
     #check:checked~ul{
-        right: 0;
+        left: 0;
     }
 }
 /*Horizontal lines*/
