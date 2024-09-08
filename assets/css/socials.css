@@ -14,7 +14,8 @@
   }
   .social-icons-mobile{
     display: flex;
-    padding-right: 1.2rem;
+    padding-right: 1rem;
+    gap: 5px;
   }
   .social-icons-mobile a{
     display: flex;
