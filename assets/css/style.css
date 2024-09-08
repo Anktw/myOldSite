@@ -27,7 +27,6 @@ body {
     background-color: var(--background-color);
     color: var(--text-color1);
     display: flex;
-    justify-content: space-between;
     flex-direction: column;
     font-family: "Inter", system-ui;
 }
