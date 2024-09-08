@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 :root{
   --background-color: #212121;
@@ -42,15 +44,27 @@ body {
 }
 /*Header*/
 .header-container {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: var(--background-color2);
-    padding: 1rem 1.2rem;
+    padding: 1rem 2rem;
 }
 /*Navigation Bar*/
 nav{
     display: flex;
+    background-color: var(--background-color2);
+}
+.active a{
+    color: var(--text-color1);
+    font-size: 35px;
+    font-family: "Protest Guerrilla", sans-serif;
+    padding-right: 10px;
+}
+.active a:hover{
+    color: var(--opphover-color);
+    background-color: var(--background-color2);
 }
 nav ul{
     float: left;
@@ -59,10 +73,15 @@ nav ul{
     gap: 10px;
 }
 nav ul li{
+    display: inline-block;
     height: 30px;
+    margin: 0 5px;
 }
 nav ul li a{
     height: 30px;
+    font-size: 17;
+    padding: 5px 11px;
+    border-radius: 3px;
 }
 nav li:hover{
     transform: scale(1.1);
@@ -77,6 +96,45 @@ nav a{
 nav a:hover{
     background-color: var(--opphover-color);
     border-radius: 5px;
+}
+.checkbtn{
+    font-size: 30px;
+    float: left;
+    cursor: pointer;
+    line-height: 80px;
+    margin-right: 40px;
+    display: none;
+}
+#check{
+    display: none;
+}
+@media (max-width: 952px){
+    .active{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 15px;
+    }
+}
+@media(max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: var(--background-color2);
+        top: 100px;
+        right: 0;
+        text-align: center;
+
+    }
+    nav ul li a{
+        display: flex;
+        flex-direction: column;
+    }
 }
 /*Horizontal lines*/
 hr {
