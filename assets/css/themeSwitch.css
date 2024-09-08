@@ -18,7 +18,8 @@ body{
   transition: background-color 0.5s, color 0.5s;
 }
 #mode-icon{
-  padding: 1rem 1rem, 1;
+  top: 1rem;
+  right: 1rem;
   cursor: pointer;
   width: 30px;
   height: 30px;
