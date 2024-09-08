@@ -53,11 +53,15 @@ nav{
     display: flex;
 }
 nav ul{
+    float: left;
     list-style: none;
     display: flex;
     gap: 10px;
 }
-nav li{
+nav ul li{
+    height: 30px;
+}
+nav ul li a{
     height: 30px;
 }
 nav li:hover{
@@ -92,6 +96,7 @@ a{
 }
 a:hover{
     color: var(--linkhover-color); 
+    transition: .3s;
 }
 .btn {
     justify-content: center;
