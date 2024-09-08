@@ -55,6 +55,24 @@ nav{
     color: var(--opphover-color);
     background-color: var(--background-color2);
 }
+.mobile-logo{
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--background-color2);
+    display: none;
+    
+}
+.mobile-logo a{    
+    color: var(--text-color1);
+    font-size: 35px;
+    font-family: "Protest Guerrilla", sans-serif;
+    padding-left: 2rem;
+    background-color: var(--background-color2);
+}
+.mobile-logo a:hover{
+    color: var(--opphover-color);
+    background-color: var(--background-color2);
+}
 nav ul{
     float: left;
     list-style: none;
@@ -141,6 +159,13 @@ nav a:hover{
     }
     #check:checked~ul{
         left: 0;
+    }
+    .mobile-logo{
+        display: flex;
+        
+    }
+    .social-icons-pc{
+        display: none;
     }
 }
 /*Horizontal lines*/

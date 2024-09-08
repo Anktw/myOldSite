@@ -12,3 +12,10 @@
     transform: scale(1.4);
     transition: transform 0.2s ease-out;
   }
+  .social-icons-mobile{
+    display: flex;
+    padding-right: 1.2rem;
+  }
+  .social-icons-mobile a{
+    display: flex;
+  }
