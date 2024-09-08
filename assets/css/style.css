@@ -12,6 +12,7 @@
 }
 .lightmode{
     --background-color: #ffffff;
+    --background-color2: #e1e4f3;
     --text-color1: #111528;
     --text-color2: #232738;
     --button-color1: #0071ff;
