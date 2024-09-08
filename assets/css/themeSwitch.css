@@ -12,11 +12,13 @@
   --button-color2: #3a435d;
   --button-color3: #ffffff;
   --root-shadow-color: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  --svg-fill-color: black;
 }
 body{
   transition: background-color 0.5s, color 0.5s;
 }
 #mode-icon{
+  padding: 1rem 1rem, 1;
   cursor: pointer;
   width: 30px;
   height: 30px;
@@ -38,8 +40,8 @@ body{
 .lightmode #theme-switch img:last-child{
   display: block;
 }
-.social-icons svg path {
-  fill: white !important; 
+.social-icons svg path,.checkbtn svg path {
+  fill: var(--svg-fill-color) !important; 
 }
 .lightmode .social-icons svg path {
   fill: black !important; 

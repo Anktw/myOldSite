@@ -18,6 +18,7 @@
   --button-color1: #0071ff;
   --button-color2: #3a435d;
   --root-shadow-color: hsla(0, 0%, 0%, 0.02);
+  --svg-fill-color: white;
 }
 
   /*Body*/
@@ -95,6 +96,15 @@ nav a:hover{
 }
 #check{
     display: none;
+}
+.close-icon{
+    display: none;
+}
+.menu-open .menu-icon {
+    display: none;
+}
+.menu-open .close-icon {
+    display: block;
 }
 @media (max-width: 952px){
     .active a{
