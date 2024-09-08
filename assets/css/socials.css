@@ -14,9 +14,15 @@
   }
   .social-icons-mobile{
     display: flex;
-    padding-right: 1rem;
-    gap: 5px;
-  }
-  .social-icons-mobile a{
+    gap: 12px;
+}
+.social-icons-mobile a{
     display: flex;
+}
+.social-icons-mobile a svg{
+    height: 20px;
+  }
+  .social-icons-mobile a svg:hover{
+    transform: scale(1.4);
+    transition: transform 0.2s ease-out;
   }
