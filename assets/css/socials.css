@@ -1,6 +1,7 @@
 .social-icons{
     display: flex;
     gap: 12px;
+    align-items: center;
     justify-content: center;
 }
 .social-icons a{
@@ -9,10 +10,10 @@
     height: 30px;
     box-sizing: border-box;
     display: flex;
-    flex-shrink: 0;
+    justify-content: center;
     align-items: center;
-    margin-top: 1.2rem;
     transition: transform 0.2s ease;
+    flex: 2;
 }
 .social-icons a svg{
     height: 20px;  
