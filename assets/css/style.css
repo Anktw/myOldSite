@@ -56,15 +56,14 @@ nav{
     background-color: var(--background-color2);
 }
 .mobile-logo{
+    display: none;
     justify-content: space-between;
     align-items: center;
     background-color: var(--background-color2);
-    display: none;
-    
 }
 .mobile-logo a{    
     color: var(--text-color1);
-    font-size: 35px;
+    font-size: 20px;
     font-family: "Protest Guerrilla", sans-serif;
     padding-left: 2rem;
     background-color: var(--background-color2);
