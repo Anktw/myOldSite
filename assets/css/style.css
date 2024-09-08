@@ -40,30 +40,19 @@ body {
     flex-direction: column;
     font-family: "Inter", system-ui;
 }
-@media(max-width: 500px){
-    .hideOnMobile{
-        display: none;
-    }
-    .menu-button{
-        display: block;
-    }
-    .social-icons {
-        gap: 8px;
-    }
-}
 /*Header*/
 .header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background: var(--background-color2);
-    width: 100%;
-    padding: 1rem 2rem;
+    padding: 1rem 1.2rem;
 }
 /*Navigation Bar*/
 nav{
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
+    align-items: center;
     flex: 3;
 }
 nav ul{
