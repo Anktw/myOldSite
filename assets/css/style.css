@@ -39,7 +39,7 @@ body {
     justify-content: space-between;
     align-items: center;
     background: var(--background-color2);
-    padding: 1rem 2rem;
+    padding: 1rem 1rem;
 }
 /*Navigation Bar*/
 nav{
@@ -108,10 +108,10 @@ nav a:hover{
     border-radius: 5px;
 }
 .checkbtn{
-    font-size: 30px;
+    font-size: 20px;
     float: left;
     cursor: pointer;
-    line-height: 80px;
+    line-height: 0px;
     margin-right: 40px;
     display: none;
 }
