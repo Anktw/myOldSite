@@ -41,10 +41,7 @@ body{
 .lightmode #theme-switch img:last-child{
   display: block;
 }
-.social-icons svg path,.checkbtn svg path,.social-icons-mobile svg path,
-.sad-emoji svg path{
+.social-icons svg path,.checkbtn svg path,.social-icons-mobile svg path,.sad svg path,
+div svg path,div div div path{
   fill: var(--svg-fill-color) !important; 
-}
-.lightmode .social-icons svg path{
-  fill: black !important; 
 }
