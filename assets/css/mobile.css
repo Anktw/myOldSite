@@ -1,3 +1,14 @@
+
+.close-icon{
+    display: none;
+}
+input[type="checkbox"]:checked + label .menu-icon {
+    display: none;
+}
+
+input[type="checkbox"]:checked + label .close-icon {
+    display: inline;
+}
 @media (max-width: 952px){
     .active a{
         font-size: 20px;
