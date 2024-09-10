@@ -80,7 +80,7 @@ input[type="checkbox"]:checked + label .close-icon {
 }
 @media (max-width: 1024px) {
     .vid-list {
-        width: 45%;
+        width: 50%;
     }
 }
 @media (max-width: 768px) {
