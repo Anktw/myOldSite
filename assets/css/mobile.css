@@ -78,3 +78,13 @@ input[type="checkbox"]:checked + label .close-icon {
     margin-top: 15px;
     }
 }
+@media (max-width: 1024px) {
+    .vid-list {
+        width: 45%;
+    }
+}
+@media (max-width: 768px) {
+    .vid-list {
+        width: 100%;
+    }
+}

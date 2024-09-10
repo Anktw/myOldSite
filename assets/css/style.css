@@ -216,37 +216,56 @@ hr{
     width: 400px;
     margin: 0 auto;
 }
-.container{padding: 1.3rem 1.3rem 1.3rem;
+.container{
+    width: 100%;
+    padding: 10px;
  }
 .list-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-column-gap: 16px;
-    grid-row-gap: 30px;
-    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 20px;
 }
-.vid-list .thumbnail{
+.vid-list {
+    padding: 15px;
+    border-radius: 8px;
+    text-align: left;
+    width: 30%;
+}
+.thumbnail{
     width: 100%;
     border-radius: 5px;
+    height: auto;
  
  }
+ .project-title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.vid-info p {
+    margin-top: 5px;
+    font-size: 1em;
+    line-height: 1.5;
+}
+.read-more {
+    margin-top: 10px;
+}
+.read-more p {
+    color: #ff4500;
+    cursor: pointer;
+}
  .vid-list .flex-div{
     align-items: flex-start;
     margin-top: 7px;
 }
-.vid-list .flex-div img{
-    width: 35px;
-    margin-right: 10px;
-    border-radius: 50%;
-}
-.flex-div{
-    display: flex;
-    align-items: center;
-
-}
 .vid-info{
     color: #5a5a5a;
-    font-size: 13px;
+    font-size: 15px;
     flex-basis: 49%;
 
+}
+.project-title{
+    font-size: 20px;
 }
