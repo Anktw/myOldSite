@@ -41,6 +41,7 @@ body {
     align-items: center;
     background: var(--background-color2);
     padding: 1.3rem 1.3rem ;
+    transition: top 0.3s;
 }
 /*Navigation Bar*/
 nav{
@@ -216,7 +217,13 @@ hr{
     width: 400px;
     margin: 0 auto;
 }
-.container{
+.top-heading{
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 1.3rem;
+    padding-top: 1rem;
+}
+.project-container{
     width: 100%;
     padding: 10px;
  }
@@ -253,7 +260,7 @@ hr{
     margin-top: 10px;
 }
 .read-more p {
-    color: #ff4500;
+    color: var(--text-color2);
     cursor: pointer;
 }
  .vid-list .flex-div{
@@ -261,7 +268,7 @@ hr{
     margin-top: 7px;
 }
 .vid-info{
-    color: #5a5a5a;
+    color: var(--text-color1);
     font-size: 15px;
     flex-basis: 49%;
 
