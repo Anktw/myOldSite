@@ -114,4 +114,8 @@ input[type="checkbox"]:checked + label .close-icon {
     .index-container {
         padding: 2rem;
     }
+    .line-container a,.line-container p{
+    margin-top: 5.5px;
+    margin-left: .3rem;
+    }
 }
