@@ -215,7 +215,6 @@ hr{
     display: flex;
     justify-content:flex-start;
     align-items: center;
-    margin: px;
     color: var(--text-color1);
 }
 .line-container a,.line-container p{
@@ -336,4 +335,7 @@ hr{
     display: inline-block;
     width: 150px;
     text-align: right; 
+}
+main{
+    margin: 1rem;
 }
