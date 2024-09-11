@@ -77,9 +77,37 @@ input[type="checkbox"]:checked + label .close-icon {
     .vid-list {
         width: 45%;
     }
+    .index-container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: .3rem;
+    }
+
+    .index-content, .circle-image {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .profile-pic {
+        width: 150px;
+        height: 150px;
+    }
+
+    .index-content h1 {
+        font-size: 3rem;
+    }
 }
 @media (max-width: 768px) {
     .vid-list {
         width: 100%;
+    }
+    .profile-pic {
+        width: 120px;
+        height: 120px;
+    }
+
+    .index-content h1 {
+        font-size: 2.5rem;
     }
 }
