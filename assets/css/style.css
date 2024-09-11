@@ -220,7 +220,7 @@ hr{
 }
 .line-container a,.line-container p{
     margin-top: 5.5px;
-    margin-left: 1rem;
+    margin-left: .5rem;
 }
 .line-container h1 a{
     color: var(--text-color1);
