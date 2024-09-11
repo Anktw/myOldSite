@@ -127,9 +127,11 @@ hr {
     overflow: visible;
 }
 /*Headings*/
-h1, h2, h3, h4, h5, h6 {
-    margin-top: .5rem;
-    margin-bottom: .5rem;
+.top-heading{
+    font-size: 50px;
+    font-weight: bold;
+    padding-left: 1.3rem;
+    padding-top: 1rem;
 }
 /*Texts*/
 p {
@@ -209,6 +211,20 @@ hr{
     text-align: right;
 }
 /*Divs*/
+.line-container{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    margin: px;
+    color: var(--text-color1);
+}
+.line-container a,.line-container p{
+    margin-top: 5.5px;
+    margin-left: 1rem;
+}
+.line-container h1 a{
+    color: var(--text-color1);
+}
 .center-div{
     display: flex;
     flex-direction: column;
@@ -230,12 +246,6 @@ hr{
     padding: 1rem 1rem 1rem 1rem;
     width: 400px;
     margin: 0 auto;
-}
-.top-heading{
-    font-size: 50px;
-    font-weight: bold;
-    padding-left: 1.3rem;
-    padding-top: 1rem;
 }
 .project-container{
     width: 100%;
