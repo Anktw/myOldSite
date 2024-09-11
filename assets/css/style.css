@@ -324,6 +324,6 @@ hr{
 }
 .greeting-wrapper {
     display: inline-block;
-    width: 180px;
+    width: 100px;
     text-align: right; 
 }
