@@ -31,3 +31,14 @@ self.addEventListener('fetch', (event) => {
             })
     );
 });
+const OFFLINE_URL = '/offline.html';
+
+// Fetch event: serve offline page if fetch fails
+self.addEventListener('fetch', event => {
+    event.respondWith(
+        fetch(event.request).catch(() => {
+            return caches.match(OFFLINE_URL);
+        })
+    );
+});
+
