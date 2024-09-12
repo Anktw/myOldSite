@@ -278,13 +278,10 @@ hr{
     margin-top: 5px;
     font-size: 1em;
     line-height: 1.5;
+    padding: 10px;
 }
 .read-more {
     margin-top: 10px;
-}
-.read-more p {
-    color: var(--text-color2);
-    cursor: pointer;
 }
  .vid-list .flex-div{
     align-items: flex-start;
@@ -340,4 +337,9 @@ main{
     margin: 1rem;
     display: flex;
     flex-direction: column;
+}
+.svg-icon{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
 }
