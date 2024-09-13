@@ -130,4 +130,8 @@ input[type="checkbox"]:checked + label .close-icon {
         margin:.3rem;
         padding: .1rem;
     }
+    .greeting-wrapper {
+        width: 200px;
+        text-align:end;
+        }
 }
