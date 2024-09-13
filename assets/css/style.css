@@ -255,6 +255,7 @@ hr{
     justify-content:flex-start;
     align-items: center;
     color: var(--text-color1);
+    
 }
 .line-container-left a,.line-container-left p{
     margin-top: 5.5px;
