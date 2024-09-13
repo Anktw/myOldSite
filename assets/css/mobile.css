@@ -103,7 +103,7 @@ input[type="checkbox"]:checked + label .close-icon {
     text-align:end;
     }
     main{
-        margin: .5rem;
+        margin: .4rem;
         padding: .2rem;
     }
 }
@@ -125,5 +125,9 @@ input[type="checkbox"]:checked + label .close-icon {
     .line-container a,.line-container p{
     margin-top: 5.5px;
     margin-left: .3rem;
+    }
+    main{
+        margin:.3rem;
+        padding: .1rem;
     }
 }

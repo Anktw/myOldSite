@@ -121,6 +121,13 @@ nav a:hover{
 #check{
     display: none;
 }
+/*main*/
+main{
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
 /*Horizontal lines*/
 hr {
     box-sizing: content-box;
@@ -151,7 +158,7 @@ a:hover{
 }
 .btn-class{
     display: inline-block;
-    padding: 1.1rem 1.1rem 1.1rem 1.1rem;
+    margin: 20px;
    }
 .btn {
     justify-content: center;
@@ -209,9 +216,9 @@ a:hover{
     letter-spacing: 0.05em;
     overflow: hidden;
     position: relative;
-    height: 2.8em;
+    height: 2.5em;
     padding-right: 2.5em;
-    margin: 20px;
+    
   }
   .btn3-icon {
     position: absolute;
@@ -373,12 +380,6 @@ hr{
     display: inline-block;
     width: 200px;
     text-align: right;
-}
-main{
-    margin: 1rem;
-    padding: .5rem;
-    display: flex;
-    flex-direction: column;
 }
 .svg-icon{
     display: flex;
