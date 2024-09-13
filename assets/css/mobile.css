@@ -132,10 +132,12 @@ input[type="checkbox"]:checked + label .close-icon {
     }
     
     .index-content p{
+    display: inline-block;
     font-size: 1.5rem;
     margin-bottom: 10px;
     font-family: "Roboto", system-ui;
     font-weight: 100;
     font-style: normal;
+
 }
 }
