@@ -1,5 +1,6 @@
 {
     "rewrites": [
-      { "source": "/index.html", "destination": "" }
+      { "source": "/index.html", "destination": "" },
+      { "source": "/404.html", "destination": "404" }
     ]
   }
