@@ -99,7 +99,7 @@ input[type="checkbox"]:checked + label .close-icon {
         font-size: 3rem;
     }
     .greeting-wrapper {
-    width: 200px;
+    width: 180px;
     text-align:end;
     }
     main{
