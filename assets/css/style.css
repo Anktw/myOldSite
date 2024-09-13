@@ -376,6 +376,5 @@ hr{
 }
 .svg-icon{
     display: flex;
-    justify-content: space-evenly;
     margin: 10px;
 }
