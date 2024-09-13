@@ -375,7 +375,7 @@ hr{
 .greeting-wrapper {
     display: inline-block;
     width: 200px;
-    text-align: center;
+    text-align: right;
 }
 .svg-icon{
     display: flex;
