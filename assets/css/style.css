@@ -13,11 +13,12 @@
   --text-color1: #ffffff;
   --text-color2: #a4a5b8;
   --link-color: #58bc82;
-  --linkhover-color: blue;
+  --linkhover-color:blue;
+  --linkhover-color2:#4338ca;
   --opphover-color: white;
   --button-color3: #f8f7ff;
   --button-color1: #0071ff;
-  --button-color4: #0071ff;
+  --button-color4: #4f46e5;
   --button-color2: #3a435d;
   --root-shadow-color: hsla(0, 26%, 18%, 0.02);
   --svg-fill-color: white;
@@ -200,35 +201,32 @@ a:hover{
     transition: all .2s;
   }
   .btn3 {
-    position: relative;
-    display: flex;
+    display: inline-flex;
+    gap: 8px;
     justify-content: center;
     align-items: center;
     border: none;
     cursor: pointer;
     background: var(--button-color4);
     color: var(--text-color1);
-    padding: 15px 20px;
-    font-size: 17px;
-    font-weight: 500;
-    border-radius: 0.9em;
+    padding: 10px 16px;
+    font-size: 0.875rem;
+    font-weight: 600;
+    border-radius: 8px;
     letter-spacing: 0.05em;
-    overflow: hidden;
-    height: 2.5em;
-    padding-right: 2.5em;
+    transition: background-color 0.2s ease-in-out;
   }
-  .btn3-icon {
-    position: absolute;
-    display: flex;
-    align-items: center;
+  .btn3:hover{
+    background-color: var(--linkhover-color2);
+  }
+  .btn3-icon svg {
+    width: 20px;
+    height: 20px;
     justify-content: center;
-    height: 2em;
-    width: 2em;
-    border-radius: 0.7em;
-    right: .3em;
+    align-items: center;
     transition: all 0.3s;
   }
-  .btn3:hover svg{
+  .btn3:hover .btn3-icon{
     transform: translateX(5px) rotate(45deg);
     transition: all .2s;
     box-shadow: none;
@@ -308,13 +306,13 @@ hr{
 }
 .vid-list {
     padding: 15px;
-    border-radius: 8px;
+    border-radius: 10px;
     text-align: left;
     width: 30%;
 }
 .thumbnail{
     width: 100%;
-    border-radius: 5px;
+    border-radius: 8px;
     height: auto;
  
  }
@@ -387,35 +385,3 @@ hr{
     margin: 10px;
 }
 
-.custom-button {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    padding: 10px 16px;
-    font-family: sans-serif;
-    font-size: 0.875rem;
-    font-weight: 600;
-    background-color: #4f46e5; /* Indigo-600 */
-    color: #f8f8ff; /* Off-white */
-    border: none;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: background-color 0.2s ease-in-out;
-    margin-top: 16px;
-    text-decoration: none;
-  }
-  
-  .custom-button:hover {
-    background-color: #4338ca; /* Indigo-700 */
-  }
-  
-  .icon {
-    width: 20px;
-    height: 20px;
-    stroke: currentColor;
-    transition: transform 0.2s ease-in-out;
-  }
-  
-  .custom-button:hover .icon {
-    transform: translateX(5px);
-  }
