@@ -107,8 +107,8 @@ input[type="checkbox"]:checked + label .close-icon {
         padding: .2rem;
     }
     .index-content p{
-        display: inline-block;
-        font-size: 1.5rem;
+        display: flex;
+        flex-wrap: nowrap;
         margin-bottom: 10px;
         font-family: "Roboto", system-ui;
         font-weight: 100;
