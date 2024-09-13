@@ -98,6 +98,11 @@ input[type="checkbox"]:checked + label .close-icon {
     .index-content h1 {
         font-size: 3rem;
     }
+    .greeting-wrapper {
+    width: 180px;
+    text-align:end;
+
+}
 }
 @media (max-width: 768px) {
     .vid-list {

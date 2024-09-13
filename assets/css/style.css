@@ -17,8 +17,9 @@
   --opphover-color: white;
   --button-color3: #f8f7ff;
   --button-color1: #0071ff;
+  --button-color4: #0071ff;
   --button-color2: #3a435d;
-  --root-shadow-color: hsla(0, 0, 0, 0.02);
+  --root-shadow-color: hsla(0, 26%, 18%, 0.02);
   --svg-fill-color: white;
 }
 
@@ -139,7 +140,7 @@ p {
     margin-top: 0;
     margin-bottom: 0;
 }
-/*links*/
+/*links and Buttons*/
 a{
     color: var(--link-color);
     text-decoration: none;
@@ -165,7 +166,7 @@ a:hover{
     font-weight: 500;
     color: var(--background-color);
     background-color: var(--text-color1);
-   } 
+   }
    .btn:hover {
     cursor: pointer;
     transform: translateY(-3px);
@@ -193,10 +194,51 @@ a:hover{
     transform: scale(1.1);
     transition: all .2s;
   }
+  .btn3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    background: var(--button-color4);
+    color: var(--text-color1);
+    padding-left: 1em;
+    font-size: 17px;
+    font-weight: 500;
+    border-radius: 0.9em;
+    letter-spacing: 0.05em;
+    overflow: hidden;
+    position: relative;
+    height: 2.8em;
+    padding-right: 3em;
+  }
+  .btn3-icon {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2em;
+    width: 2em;
+    border-radius: 0.7em;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #7a8cf3;
+    right: 0.3em;
+    transition: all 0.3s;
+  }
+  .contactButton:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em #5566c2;
+  }
+  
+  .contactButton:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em #5566c2;
+  }
+  
 hr{
     color: var(--text-color1);
     width: 100%;
 }
+
 /*Images*/
 .profile-pic{
     height: 200px;
@@ -330,11 +372,12 @@ hr{
 }
 .greeting-wrapper {
     display: inline-block;
-    width: 150px;
-    text-align: right; 
+    width: 200px;
+    text-align: right;
 }
 main{
     margin: 1rem;
+    padding: .5rem;
     display: flex;
     flex-direction: column;
 }

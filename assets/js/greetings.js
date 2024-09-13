@@ -1,4 +1,4 @@
-const greetings = ["Hello", "Ola", "Namaste", "Bonjour", "Hola", "Ciao", "Salut"];
+const greetings = ["Full Stack", "Open Source", "DevOps", "Next.js", "Javasript", "Node.js", "Blockchain", "AI"];
 let currentIndex = 0;
 const greetingElement = document.getElementById('greetings');
 
