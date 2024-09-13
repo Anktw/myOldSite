@@ -110,10 +110,6 @@ input[type="checkbox"]:checked + label .close-icon {
         display: flex;
         font-size: 1.3;
         flex-wrap: nowrap;
-        margin-bottom: 10px;
-        font-family: "Roboto", system-ui;
-        font-weight: 100;
-        font-style: normal;
     }
 }
 @media (max-width: 768px) {
