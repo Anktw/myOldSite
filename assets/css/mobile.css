@@ -101,8 +101,11 @@ input[type="checkbox"]:checked + label .close-icon {
     .greeting-wrapper {
     width: 180px;
     text-align:end;
-
-}
+    }
+    main{
+        margin: .5rem;
+        padding: .2rem;
+    }
 }
 @media (max-width: 768px) {
     .vid-list {
