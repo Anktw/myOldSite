@@ -1,6 +1,10 @@
 {
     "rewrites": [
-      { "source": "/index.html", "destination": "unkit.vercel.app" },
-      { "source": "/404.html", "destination": "404" }
+      { "source": "/index.html", "destination": "index.html" }
+    ],
+    "redirects": [
+      { "source": "/index.html", "destination": "", "permanent": true },
+      { "source": "/about.html", "destination": "about", "permanent": true },
+      { "source": "/blog.html", "destination": "blog", "permanent": true }
     ]
   }
