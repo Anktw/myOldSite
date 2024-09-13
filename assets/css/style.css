@@ -283,7 +283,7 @@ hr{
     margin-top: 2rem;
 }
 .box-div{
-    border: 2px solid var(--text-color1); /* Add a border */
+    border: 2px solid var(--text-color1);
     padding: 1rem 1rem 1rem 1rem;
     width: 400px;
     margin: 0 auto;
