@@ -1,6 +1,6 @@
 {
     "rewrites": [
-      { "source": "/index.html", "destination": "" },
+      { "source": "/index.html", "destination": "unkit.vercel.app" },
       { "source": "/404.html", "destination": "404" }
     ]
   }
