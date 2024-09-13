@@ -99,7 +99,7 @@ input[type="checkbox"]:checked + label .close-icon {
         font-size: 3rem;
     }
     .greeting-wrapper {
-    width: 200px;
+    width: 180px;
     text-align:end;
     }
     main{
@@ -130,8 +130,8 @@ input[type="checkbox"]:checked + label .close-icon {
         margin:.3rem;
         padding: .1rem;
     }
-    .greeting-wrapper {
-        width: 200px;
-        text-align:end;
-        }
+    .btn3{
+        justify-content: center;
+        align-items: center;
+    }
 }
