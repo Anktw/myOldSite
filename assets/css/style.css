@@ -265,6 +265,11 @@ hr{
 .line-container h1 a{
     color: var(--text-color1);
 }
+.line-container h3 a{
+    display: flex;
+    align-items: right;
+    justify-content: flex-end;
+}
 .center-div{
     display: flex;
     flex-direction: column;
@@ -294,7 +299,7 @@ hr{
 .list-container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: flex-start;
     gap: 15px;
     margin-top: 20px;
 }
