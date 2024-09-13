@@ -148,6 +148,7 @@ p {
 a{
     color: var(--link-color);
     text-decoration: none;
+    display: inline-block;
 }
 a:hover{
     color: var(--linkhover-color); 
@@ -199,6 +200,7 @@ a:hover{
     transition: all .2s;
   }
   .btn3 {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -206,16 +208,14 @@ a:hover{
     cursor: pointer;
     background: var(--button-color4);
     color: var(--text-color1);
-    padding-left: 1em;
+    padding: 15px 20px;
     font-size: 17px;
     font-weight: 500;
     border-radius: 0.9em;
     letter-spacing: 0.05em;
     overflow: hidden;
-    position: relative;
     height: 2.5em;
     padding-right: 2.5em;
-    
   }
   .btn3-icon {
     position: absolute;
@@ -227,15 +227,12 @@ a:hover{
     border-radius: 0.7em;
     right: .3em;
     transition: all 0.3s;
-    box-shadow: 0.1em 0.1em 0.6em 0.2em #7a8cf3;
+    box-shadow: 0.1em 0.2em #7a8cf3;
   }
-  .btn3:hover{
-    text-transform: scale(1.2);
-  }
-  
   .btn3:hover .btn3-icon svg{
     transform: translateX(5px) rotate(45deg);
     transition: all .2s;
+    box-shadow: none;
   }
 hr{
     color: var(--text-color1);

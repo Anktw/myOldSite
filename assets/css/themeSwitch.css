@@ -27,7 +27,7 @@ body{
   transition: opacity .4s ease;
 }
 #mode-icon:hover{
-  transform: rotate(180deg) scale(1.4);
+  transform: rotate(180deg) scale(1.2);
   transition: transform .3s ease-in-out;
 }
 #theme-switch{
