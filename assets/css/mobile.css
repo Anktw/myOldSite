@@ -141,7 +141,7 @@ input[type="checkbox"]:checked + label .close-icon {
     margin-left: .3rem;
     }
     main{
-        margin: .3rem;
+        margin: 0rem;
     }
 }
 
