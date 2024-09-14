@@ -104,7 +104,7 @@ input[type="checkbox"]:checked + label .close-icon {
     }
     main{
         margin: .4rem;
-        padding: .2rem;
+        padding: .5rem;
     }
     .index-content p{
         display: flex;
@@ -118,7 +118,7 @@ input[type="checkbox"]:checked + label .close-icon {
       }
       
     .line-container-right{
-        margin-right: .5rem;
+        margin-right: 1rem;
     }
 }
 @media (max-width: 768px) {
@@ -141,8 +141,7 @@ input[type="checkbox"]:checked + label .close-icon {
     margin-left: .3rem;
     }
     main{
-        margin: 0rem;
-        padding: 0rem;
+        margin: .8rem;
     }
 }
 
