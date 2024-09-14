@@ -269,6 +269,11 @@ hr{
     justify-content: end;
     margin-right: 3rem;
 }
+.line-container-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .center-div{
     display: flex;
     flex-direction: column;
