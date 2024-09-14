@@ -332,16 +332,17 @@ hr{
     margin-top: 10px;
 }
 .vid-info p {
+    font-weight: bold;
     margin-top: 5px;
     font-size: 1em;
     line-height: 1.5;
 }
 .read-more {
-    margin-top: 10px;
+    margin-top: 5px;
 }
  .vid-list .flex-div{
     align-items: flex-start;
-    margin-top: 7px;
+    margin-top: 5px;
 }
 .vid-info{
     color: var(--text-color1);
@@ -390,8 +391,3 @@ hr{
     width: 200px;
     text-align: right;
 }
-.svg-icon{
-    display: flex;
-    margin: 10px;
-}
-
