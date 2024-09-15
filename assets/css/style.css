@@ -306,8 +306,9 @@ hr{
  }
 .list-container{
     display: flex;
+    justify-content: center;
+    align-items: flex-start;
     flex-wrap: wrap;
-    justify-content: flex-start;
     gap: 15px;
     margin-top: 20px;
 }
