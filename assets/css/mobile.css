@@ -33,15 +33,19 @@ nav{
 nav ul{
     list-style: none;
     display: flex;
+
     gap: 10px;
 }
 nav ul li{
-    display: inline-block;
-    height: 30px;
-    margin: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 nav ul li a{
-    display: inline;
+    align-items: center;
+    justify-content: center;
+    display: flex;
     height: 30px;
     font-size: 17;
     padding: 5px 11px;

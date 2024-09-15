@@ -16,6 +16,7 @@
   --svg-fill-color: black;
 }
 #mode-icon{
+  display: flex;
   cursor: pointer;
   width: 30px;
   height: 30px;
@@ -34,6 +35,6 @@
 .lightmode #theme-switch img:last-child{
   display: block;
 }
-.social-icons svg path,.checkbtn svg path,.social-icons-mobile svg path,.center-div svg path{
+.social-icons svg path,.checkbtn svg path,.social-icons-mobile svg path,.center-div svg path,.btn3-icon svg path{
   fill: var(--svg-fill-color) !important; 
 }
