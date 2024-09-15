@@ -98,10 +98,7 @@ nav a:hover{
 }
 .checkbtn{
     font-size: 20px;
-    float: left;
     cursor: pointer;
-    line-height: 0px;
-    margin-right: 40px;
     display: none;
 }
 #check{
@@ -113,18 +110,10 @@ main {
     display: flex;
     flex-direction: column;
 }
-/*Horizontal lines*/
-hr {
-    box-sizing: content-box;
-    height: 0;
-    overflow: visible;
-}
 /*Headings*/
 .top-heading{
     font-size: 50px;
     font-weight: bold;
-    padding-left: 1.3rem;
-    padding-top: 1rem;
 }
 /*Texts*/
 p {
@@ -143,7 +132,7 @@ a:hover{
 .btn-class{
     display: inline-block;
     margin: 20px;
-   }
+}
 .btn {
     justify-content: center;
     font-size: 17px;
@@ -216,23 +205,15 @@ a:hover{
     transition: all .2s;
     box-shadow: none;
   }
-hr{
-    color: var(--text-color1);
-    width: 100%;
-}
 
 /*Images*/
 .profile-pic{
     height: 200px;
     width: 200px;
-    filter: drop-shadow(2px 2px 1px var(--text-color1))drop-shadow(-2px -2px 1px var(--text-color1));
+    filter: drop-shadow(2px 2px 1px var(--text-color1));
     transition: all .5s ease-out;
     border-radius: 50%;
     border:2px solid var(--text-color2);
-}
-.circle-image{
-    display: flex;
-    text-align: right;
 }
 /*Divs*/
 .line-container-left{
