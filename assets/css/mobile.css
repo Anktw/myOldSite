@@ -1,4 +1,66 @@
 
+/*Navigation Bar*/
+nav{
+
+    display: flex;
+    background-color: var(--background-color2);
+    z-index: 999;
+}
+.active a{
+    color: var(--text-color1);
+    font-size: 35px;
+    font-family: "Protest Guerrilla", sans-serif;
+    padding-right: 10px;
+}
+.active a:hover{
+    color: var(--opphover-color);
+    background-color: var(--background-color2);
+}
+.mobile-logo{
+    width: 100%;
+    padding: .5rem;
+    display: none;
+    background-color: var(--background-color2);
+    justify-content: space-between;
+}
+.mobile-logo a{    
+    color: var(--text-color1);
+    font-size: 20px;
+    font-family: "Protest Guerrilla", sans-serif;
+    background-color: var(--background-color2); 
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+nav ul li{
+    display: inline-block;
+    height: 30px;
+    margin: 0 5px;
+}
+nav ul li a{
+    height: 30px;
+    font-size: 17;
+    padding: 5px 11px;
+}
+nav li:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-out;
+    height: 30px;
+}
+nav a:hover{
+    background-color: var(--opphover-color);
+    border-radius: 5px;
+}
+.checkbtn{
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
 .close-icon{
     display: none;
 }
