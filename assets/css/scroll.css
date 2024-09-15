@@ -33,7 +33,7 @@
     animation-iteration-count: infinite;
   }
   
-  .marquee-item1, {
+  .marquee-item1 {
     animation-delay: calc(30s / 8 * (8 - 1) * -1);
   }
   
@@ -64,3 +64,24 @@
   .marquee-item8 {
     animation-delay: calc(30s / 8 * (8 - 8) * -1);
   }
+  .marquee-item8 {
+    animation-delay: calc(30s / 8 * (8 - 8) * -1);
+    }
+    .marquee-item9 {
+      animation-delay: calc(30s / 8 * (8 - 8) * -1);
+    }
+    .marquee-item10 {
+      animation-delay: calc(30s / 8 * (8 - 8) * -1);
+    }
+    .marquee-item11 {
+      animation-delay: calc(30s / 8 * (8 - 8) * -1);
+    }
+    .marquee-item12 {
+      animation-delay: calc(30s / 8 * (8 - 8) * -1);
+    }
+    .marquee-item13 {
+      animation-delay: calc(30s / 8 * (8 - 8) * -1);
+    }
+    .marquee-item14 {
+      animation-delay: calc(30s / 8 * (8 - 8) * -1);
+    }

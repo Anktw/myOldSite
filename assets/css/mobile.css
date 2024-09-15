@@ -23,7 +23,8 @@ nav{
     background-color: var(--background-color2);
     justify-content: space-between;
 }
-.mobile-logo a{    
+.mobile-logo a{  
+    display: inline;  
     color: var(--text-color1);
     font-size: 20px;
     font-family: "Protest Guerrilla", sans-serif;

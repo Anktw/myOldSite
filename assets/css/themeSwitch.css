@@ -15,23 +15,15 @@
   --root-shadow-color: rgb(228, 228, 228);
   --svg-fill-color: black;
 }
-body{
-  transition: background-color 0.5s, color 0.5s;
-}
 #mode-icon{
-  top: 1rem;
-  right: 1rem;
   cursor: pointer;
   width: 30px;
   height: 30px;
-  transition: opacity .4s ease;
+  transition: opacity .3s ease;
 }
 #mode-icon:hover{
-  transform: rotate(180deg) scale(1.2);
+  transform: rotate(90deg) scale(1.2);
   transition: transform .3s ease-in-out;
-}
-#theme-switch{
-  display: flex;
 }
 #theme-switch img:last-child{
   display: none;
@@ -42,7 +34,6 @@ body{
 .lightmode #theme-switch img:last-child{
   display: block;
 }
-.social-icons svg path,.checkbtn svg path,.social-icons-mobile svg path,.sad svg path,
-div svg path,div div div path{
+.social-icons svg path,.checkbtn svg path,.social-icons-mobile svg path,.center-div svg path{
   fill: var(--svg-fill-color) !important; 
 }

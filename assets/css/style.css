@@ -29,7 +29,7 @@ body {
     min-height: 100vh;
     background-color: var(--background-color);
     color: var(--text-color1);
-    transition: all 1s;
+    transition: background-color .5s, color 0.3s;
 }
 /*Header*/
 .header-container {
@@ -50,6 +50,14 @@ main {
 /*Headings*/
 .top-heading{
     font-size: 50px;
+    font-weight: bold;
+}
+.first-heading{
+    font-size: 35px;
+    font-weight: bold;
+}
+.second-heading{
+    font-size: 25px;
     font-weight: bold;
 }
 /*Texts*/
@@ -176,6 +184,8 @@ a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 1rem;
+
 }
 .center-div{
     margin-top: 50px;
