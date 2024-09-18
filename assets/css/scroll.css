@@ -7,19 +7,18 @@
 }
 
 .timeline::before {
-  
   content: '';
   position: absolute;
   left: 50%;
-  width: 4px;
-  height: 100%;
+  width: 2px;
+  height: 93.5%;
   background: var(--background-color4);
 }
 
 .milestone {
   position: relative;
   width: 50%;
-  padding: 00px 40px;
+  padding: 20px 40px;
   box-sizing: border-box;
 }
 
@@ -52,7 +51,7 @@
 }
 
 .milestone:nth-child(even)::before {
-  right: 100%;
+  left: 0;
 }
 
 /* Animation */
@@ -65,8 +64,4 @@
 .milestone.visible {
   opacity: 1;
   transform: translateY(0);
-}
-
-@media (max-width: 768px) {
-  
 }
