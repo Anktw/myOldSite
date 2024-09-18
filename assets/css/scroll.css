@@ -1,87 +1,82 @@
-.marquee {
-    width: 90%;
-    max-width: 1536px;
-    margin-inline: auto;
-    position: relative;
-    height: 70px;
-    margin-top: 1.3rem;
-    overflow: hidden;
-    mask-image: linear-gradient(
-      to right,
-      rgba(0, 0, 0, 0),
-      rgba(0, 0, 0, 1) 20%,
-      rgba(0, 0, 0, 1) 80%,
-      rgba(0, 0, 0, 0)
-    );
+.timeline {
+  position: relative;
+  margin: 20px auto;
+  padding: 40px 0;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  width: 4px;
+  height: 100%;
+  background: var(--background-color4);
+}
+
+.milestone {
+  position: relative;
+  width: 50%;
+  padding: 10px 40px;
+  box-sizing: border-box;
+}
+
+.milestone:nth-child(odd) {
+  left: 0;
+  text-align: right;
+}
+
+.milestone:nth-child(even) {
+  left: 50%;
+}
+.milestone p {
+  margin: 5px 0 0;
+  color: var(--text-color3);
+}
+
+/* Circle and Line */
+.milestone::before {
+  content: '';
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background-color: #3498db;
+  border-radius: 50%;
+}
+
+.milestone:nth-child(odd)::before {
+  right: -26px;
+}
+
+.milestone:nth-child(even)::before {
+  left: -26px;
+}
+
+/* Animation */
+.milestone {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.milestone.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (max-width: 768px) {
+  .milestone {
+      width: 100%;
+      text-align: left;
+      padding-left: 30px;
   }
-  
-  @keyframes scrollLeft {
-    to {
-      left: -100px;
-    }
+  .milestone:nth-child(odd),
+  .milestone:nth-child(even) {
+      left: 0;
   }
-  
-  .marquee-items {
-    display: flex;
-    justify-content: center;
-    border-radius: 6px;
-    position: absolute;
-    left: max(calc(200px * 8), 100%);
-    animation-name: scrollLeft;
-    animation-duration: 15s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
+  .milestone:nth-child(odd)::before,
+  .milestone:nth-child(even)::before {
+      left: -25px;
   }
-  
-  .marquee-item1 {
-    animation-delay: calc(30s / 8 * (8 - 1) * -1);
-  }
-  
-  .marquee-item2 {
-    animation-delay: calc(30s / 8 * (8 - 2) * -1);
-  }
-  
-  .marquee-item3 {
-    animation-delay: calc(30s / 8 * (8 - 3) * -1);
-  }
-  
-  .marquee-item4 {
-    animation-delay: calc(30s / 8 * (8 - 4) * -1);
-  }
-  
-  .marquee-item5 {
-    animation-delay: calc(30s / 8 * (8 - 5) * -1);
-  }
-  
-  .marquee-item6 {
-    animation-delay: calc(30s / 8 * (8 - 6) * -1);
-  }
-  
-  .marquee-item7 {
-    animation-delay: calc(30s / 8 * (8 - 7) * -1);
-  }
-  
-  .marquee-item8 {
-    animation-delay: calc(30s / 8 * (8 - 8) * -1);
-  }
-  .marquee-item8 {
-    animation-delay: calc(30s / 8 * (8 - 8) * -1);
-    }
-    .marquee-item9 {
-      animation-delay: calc(30s / 8 * (8 - 8) * -1);
-    }
-    .marquee-item10 {
-      animation-delay: calc(30s / 8 * (8 - 8) * -1);
-    }
-    .marquee-item11 {
-      animation-delay: calc(30s / 8 * (8 - 8) * -1);
-    }
-    .marquee-item12 {
-      animation-delay: calc(30s / 8 * (8 - 8) * -1);
-    }
-    .marquee-item13 {
-      animation-delay: calc(30s / 8 * (8 - 8) * -1);
-    }
-    .marquee-item14 {
-      animation-delay: calc(30s / 8 * (8 - 8) * -1);
-    }
+}
