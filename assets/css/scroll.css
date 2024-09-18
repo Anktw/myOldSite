@@ -11,7 +11,7 @@
   position: absolute;
   left: 50%;
   width: 2px;
-  height: 93.5%;
+  height: 100%;
   background: var(--background-color4);
 }
 
@@ -26,9 +26,9 @@
   left: 0;
   text-align: right;
 }
-
 .milestone:nth-child(even) {
   left: 50%;
+  text-align: left;
 }
 .milestone p {
   margin: 5px 0 0;
