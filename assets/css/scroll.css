@@ -1,12 +1,13 @@
 .timeline {
   position: relative;
   margin: 20px auto;
-  padding: 40px 0;
+  padding: 50px 0;
   width: 100%;
   max-width: 1000px;
 }
 
 .timeline::before {
+  
   content: '';
   position: absolute;
   left: 50%;
@@ -18,7 +19,7 @@
 .milestone {
   position: relative;
   width: 50%;
-  padding: 10px 40px;
+  padding: 00px 40px;
   box-sizing: border-box;
 }
 
@@ -43,14 +44,15 @@
   height: 12px;
   background-color: #3498db;
   border-radius: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .milestone:nth-child(odd)::before {
-  right: -26px;
+  left:100%;
 }
 
 .milestone:nth-child(even)::before {
-  left: -26px;
+  right: 100%;
 }
 
 /* Animation */
@@ -66,17 +68,5 @@
 }
 
 @media (max-width: 768px) {
-  .milestone {
-      width: 100%;
-      text-align: left;
-      padding-left: 30px;
-  }
-  .milestone:nth-child(odd),
-  .milestone:nth-child(even) {
-      left: 0;
-  }
-  .milestone:nth-child(odd)::before,
-  .milestone:nth-child(even)::before {
-      left: -25px;
-  }
+  
 }
