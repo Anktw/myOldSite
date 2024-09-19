@@ -180,13 +180,13 @@ a:hover{
 .show-more-btn:hover .timeline::before{
   background-color: var(--button-color1);
 }
-#show-more-icon-btn img:last-child{
+#show-more-icon-btn svg:last-child{
   display: none;
 }
-.change-btn-icon #show-more-icon-btn img:first-child{
+.change-btn-icon #show-more-icon-btn svg:first-child{
   display: none;
 }
-.change-btn-icon #show-more-icon-btn img:last-child{
+.change-btn-icon #show-more-icon-btn svg:last-child{
   display: block;
 }
 
