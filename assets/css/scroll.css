@@ -1,6 +1,5 @@
 .timeline {
   position: relative;
-  margin: 50px;
   width: 100%;
 }
 
@@ -98,8 +97,6 @@
 }
 .timeline-btn-icon{
     display: inline;
-    width: 20px;
-    height: 20px;
     justify-content: center;
     align-items: center;
     transition: all 0.3s;
