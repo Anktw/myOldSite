@@ -1,6 +1,6 @@
 .timeline {
   position: relative;
-  margin: 20px;
+  margin-left: 50px;
   width: 100%;
 }
 
@@ -12,7 +12,7 @@
   width: 2px;
   height: calc(100% - 100px);
   background: var(--background-color4);
-  transition: height 0.6s ease-out;
+  transition: height 5s ease-out;
   transform: translateX(-50%);
 }
 
@@ -67,4 +67,26 @@
 .milestone.visible {
   opacity: 1;
   transform: translateY(0);
+}
+.more-timeline{
+  display: none;
+}
+.timeline-btn-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.show-more-btn {
+  display: block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: var(--background-color4);
+  color: var(--text-color1);
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 17px;
 }

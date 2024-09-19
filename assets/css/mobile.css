@@ -228,6 +228,9 @@ input[type="checkbox"]:checked + label .close-icon {
       .milestone:nth-child(odd)::before {
         left:0;
       }
+      .timeline-btn-div{
+        justify-content: flex-start;
+      }
 }
 
 
