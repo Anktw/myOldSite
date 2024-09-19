@@ -211,6 +211,23 @@ input[type="checkbox"]:checked + label .close-icon {
     main{
         margin: 0rem;
     }
+    .timeline::before {
+        left: 0;
+      }
+      
+      .milestone {
+        width: 100%;
+      }
+      
+      .milestone:nth-child(odd) {
+        text-align: left;
+      }
+      .milestone:nth-child(even) {
+        left: 0;
+      }
+      .milestone:nth-child(odd)::before {
+        left:0;
+      }
 }
 
 
