@@ -1,17 +1,16 @@
 .timeline {
   position: relative;
   margin: 20px auto;
-  padding: 50px 0;
   width: 100%;
 }
 
 .timeline::before {
-  top: 0;
   content: '';
   position: absolute;
   left: 50%;
+  top: 50px;
   width: 2px;
-  height: 100%;
+  height: calc(100% - 100px);
   background: var(--background-color4);
   transition: height 0.6s ease-out;
   transform: translateX(-50%);
@@ -68,7 +67,4 @@
 .milestone.visible {
   opacity: 1;
   transform: translateY(0);
-}
-@media (max-width: 768px) {
-  
 }

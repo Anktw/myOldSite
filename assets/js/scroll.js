@@ -7,6 +7,7 @@ window.addEventListener('scroll', function() {
 
         if (elementTop < windowHeight - elementVisible) {
             milestones[i].classList.add('visible');
+
         } else {
             milestones[i].classList.remove('visible');
         }
