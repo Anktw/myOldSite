@@ -88,17 +88,21 @@
     font-weight: 600;
     border-radius: 8px;
     letter-spacing: 0.05em;
-    transition: background-color 0.2s ease-in-out;
+    transition: all 0.3s ease-in-out;
 }
 .show-more-btn:hover{
   background-color: var(--button-color1);
+  transform: scale(1.01);
 }
 .show-more-btn:hover .timeline::before{
   background-color: var(--button-color1);
 }
-.timeline-btn-icon{
-    display: inline;
-    justify-content: center;
-    align-items: center;
-    transition: all 0.3s;
+#show-more-icon-btn img:last-child{
+  display: none;
+}
+.timeline-btn-icon #show-more-icon-btn img:first-child{
+  display: none;
+}
+.timeline-btn-icon #show-more-icon-btn img:last-child{
+  display: block;
 }

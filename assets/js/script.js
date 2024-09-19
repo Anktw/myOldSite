@@ -3,9 +3,9 @@ document.getElementById('show-more-btn').addEventListener('click', function() {
     
     if (moreTimeline.style.display === 'none' || moreTimeline.style.display === '') {
         moreTimeline.style.display = 'block';
-        this.textContent = 'Show Less';  
+        document.body.classList.add('timeline-btn-icon')
     } else {
         moreTimeline.style.display = 'none';
-        this.textContent = 'Show More';  
+        document.body.classList.remove('timeline-btn-icon')  
     }
 });
