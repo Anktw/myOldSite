@@ -1,11 +1,14 @@
 document.getElementById('show-more-btn').addEventListener('click', function() {
     var moreTimeline = document.getElementById('more-timeline');
+    var icon = document.getElementById('timeline-btn-icon');
     
     if (moreTimeline.style.display === 'none' || moreTimeline.style.display === '') {
         moreTimeline.style.display = 'block';
-        document.body.classList.add('timeline-btn-icon')
+        this.querySelector('span').textContent = 'Show Less';
+        document.body.classList.add('change-btn-icon')
     } else {
         moreTimeline.style.display = 'none';
-        document.body.classList.remove('timeline-btn-icon')  
+        this.querySelector('span').textContent = 'Show More';
+        document.body.classList.remove('change-btn-icon')
     }
 });
