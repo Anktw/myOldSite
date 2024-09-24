@@ -38,6 +38,6 @@
   display: block;
 }
 .social-icons svg path,.checkbtn svg path,.social-icons-mobile svg path,.center-div svg path,.btn3-icon svg path
-,.show-more-btn svg path, .show-more-icon-btn svg path{
+,.show-more-btn svg path, .show-more-icon-btn svg path,.btn-circle svg{
   fill: var(--svg-fill-color) !important; 
 }
