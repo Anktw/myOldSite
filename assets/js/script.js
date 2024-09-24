@@ -12,3 +12,10 @@ document.getElementById('show-more-btn').addEventListener('click', function() {
         document.body.classList.remove('change-btn-icon')
     }
 });
+
+document.getElementById('scroll-to-top').addEventListener('click', function() {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+    });
+});

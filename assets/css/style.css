@@ -206,8 +206,13 @@ a:hover{
     transition: background-color 0.2s ease-in-out;
 }
 .btn-circle:hover svg{
-    transform: translateX(5px) rotate(45deg);
-    transition: all .2s;
+    transform: rotate(360deg);
+    transition: all .5s;
+    
+}
+.btn-circle:hover{
+    transform: scale(1.1);
+    transition: all .3s;
 }
 /*Images*/
 .profile-pic{
