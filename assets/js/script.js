@@ -19,5 +19,3 @@ document.getElementById('scroll-to-top').addEventListener('click', function() {
         behavior: 'smooth'
     });
 });
-
-
