@@ -36,6 +36,12 @@ body {
     transition: background-color .5s, color 0.3s;
 }
 /*Header*/
+header{
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
 .header-container {
     width: 100%;
     display: flex;
@@ -44,6 +50,7 @@ body {
     background: var(--background-color2);
     padding: 1.3rem;
     transition: top 0.3s;
+    
     
 }
 /*main*/
