@@ -22,6 +22,10 @@ nav{
     display: none;
     background-color: var(--background-color2);
     justify-content: space-between;
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 .mobile-logo a{  
     display: inline-block;  
