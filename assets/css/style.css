@@ -354,16 +354,6 @@ a:hover{
     font-family: "Roboto", system-ui;
     font-weight: 100;
     font-style: normal;
-    transition: all .5s ease-in;
-}
-#greetings{
-    opacity: 1;
-    transition: opacity 1s ease-in-out;
-}
-.greeting-wrapper {
-    display: inline-block;
-    width: 200px;
-    text-align: right;
 }
 footer{
     align-items: center;
