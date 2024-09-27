@@ -1,0 +1,109 @@
+{
+    "milestones": [
+      {
+        "title": "HTML",
+        "description": "Mastered the basics of building the structure of web pages."
+      },
+      {
+        "title": "CSS",
+        "description": "Learned to style and layout web pages, making them visually appealing."
+      },
+      {
+        "title": "JavaScript",
+        "description": "Implemented dynamic and interactive elements for user interfaces."
+      },
+      {
+        "title": "React",
+        "description": "Started building component-based UI architectures for scalable applications."
+      },
+      {
+        "title": "Tailwind CSS",
+        "description": "Adopted utility-first CSS for faster and more maintainable styling."
+      },
+      {
+        "title": "Vite",
+        "description": "Improved development experience with Vite's fast build times."
+      },
+      {
+        "title": "Vue",
+        "description": "Explored declarative rendering with Vue's simple yet powerful framework."
+      },
+      {
+        "title": "TypeScript",
+        "description": "Implemented type safety and tooling for more maintainable codebases."
+      },
+      {
+        "title": "Angular",
+        "description": "Dived into full-featured frameworks with Angular's complete toolset."
+      },
+      {
+        "title": "Next.js",
+        "description": "Built server-rendered applications and optimized performance with Next.js."
+      },
+      {
+        "title": "Remix",
+        "description": "Enhanced full-stack development by combining React and Remix features."
+      },
+      {
+        "title": "React Native",
+        "description": "Developed cross-platform mobile apps using React Native."
+      },
+      {
+        "title": "Flutter",
+        "description": "Created natively compiled apps for mobile, web, and desktop from a single codebase."
+      },
+      {
+        "title": "Electron.js",
+        "description": "Built desktop applications with JavaScript, HTML, and CSS."
+      },
+      {
+        "title": "C/C++",
+        "description": "Used C for developing efficient algorithms and data structures, focusing on low-level memory management and performance optimization."
+      },
+      {
+        "title": "Python",
+        "description": "Used Python for backend development, scripting, and data analysis."
+      },
+      {
+        "title": "Java",
+        "description": "Mastered object-oriented programming with Java for desktop and Android applications."
+      },
+      {
+        "title": "MySQL",
+        "description": "Structured and managed relational databases with SQL."
+      },
+      {
+        "title": "PostgreSQL",
+        "description": "Enhanced database management with PostgreSQL's advanced features."
+      },
+      {
+        "title": "Docker",
+        "description": "Containerized applications for efficient deployment and scalability."
+      },
+      {
+        "title": "Firebase",
+        "description": "Integrated real-time databases and authentication services with Firebase."
+      },
+      {
+        "title": "MongoDB",
+        "description": "Worked with NoSQL databases for flexible data storage and management."
+      },
+      {
+        "title": "AWS",
+        "description": "Deployed and managed scalable cloud solutions using AWS services."
+      },
+      {
+        "title": "Vercel",
+        "description": "Deployed and hosted web applications with ease on Vercel."
+      },
+      {
+        "title": "Netlify",
+        "description": "Automated deployments and hosting of frontend applications on Netlify."
+      },
+      {
+        "title": "Android Development",
+        "description": "Developed Android apps using Kotlin and Java for mobile solutions."
+      }
+    ]
+  }
+  
