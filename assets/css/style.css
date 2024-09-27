@@ -22,6 +22,7 @@
   --button-color1: #0071ff;
   --button-color4: #4f46e5;
   --button-color2: #3a435d;
+  --border-color1: rgba(230, 230, 230, 0.15);
   --root-shadow-color: hsla(0, 26%, 18%, 0.02);
   --svg-fill-color: white;
 }
@@ -282,15 +283,20 @@ a:hover{
 .list-container{
     display: flex;
     justify-content: center;
-    align-items: flex-start;
+    
     flex-wrap: wrap;
     gap: 15px;
     margin-top: 20px;
+    align-items: stretch;
 }
 .vid-list {
     border-radius: 8px;
     text-align: left;
     width: 30%;
+    padding: 5px;
+    max-height: 100%;
+    border: 0.5px solid transparent;
+    transition: border 0.3s ease;
 }
 .thumbnail{
     width: 100%;
@@ -300,6 +306,9 @@ a:hover{
  .thumbnail:hover{
     border-radius: 0;
     transition: all .3s;
+ }
+ .vid-list:hover{
+    border: 0.5px solid var(--border-color1);
  }
  .project-title {
     font-size: 1.2em;
